@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilo del texto */
+h2 {
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Resaltar los textos de la hora y fecha */
+#time, #date, #location {
+    font-weight: bold;
+    color: #333;
+}
